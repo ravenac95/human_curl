@@ -65,7 +65,9 @@ PROXIES_TYPES_MAP = {
     'socks5': pycurl.PROXYTYPE_SOCKS5,
     'socks4': pycurl.PROXYTYPE_SOCKS4,
     'http': pycurl.PROXYTYPE_HTTP,
-    'https': pycurl.PROXYTYPE_HTTP}
+    'https': pycurl.PROXYTYPE_HTTP,
+    'connect': pycurl.PROXYTYPE_HTTP,
+}
 
 
 # FULL LIST OF GETINFO OPTIONS
